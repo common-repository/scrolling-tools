@@ -1,0 +1,49 @@
+#scrollingTools { text-align:center; position:fixed; display:none;  z-index:199; backgrsound:red; }
+#scrollingTools a { display:inline-block; margin:7px 0; }
+
+.stTop img {vertical-align:bottom;}
+.stMiddle { background:url("../images/current/bgMiddle.png") left repeat-y; padding:10px 0; }
+
+
+/* Admin */
+
+.fieldContainer { padding:10px; width:55%; margin:20px; }
+.fieldContainer h2 { background:#f1f1f1; margin:0; padding:10px;  border:1px solid #ccc; cursor:pointer; }
+.fieldContainer h2 { border-radius:15px 15px 0 0; }
+.fieldContent { border:1px solid #ccc; border-top:none; padding:10px; display:none; }
+.fieldContent { border-radius:0 0 15px 15px; }
+.formRow   { border-bottom:1px solid #888; padding:10px;}
+.label { display:inline-block; width:200px; }
+.input { display:inline-block;  }
+
+.infos { margin-top:5px; padding-top:10px; border-top:1px solid #888; }
+.infos span { font-size:10px; font-style:italic; }
+
+#distTop input, #distMiddle input, #distFadeout input { text-align:right; width:70px; }
+
+#help { font-size:10px; margin-bottom:10px; }
+#help a { font-style:italic; }
+
+#bgReset { float:right; }
+#allReset { float:right; font-weight:bold; color:red; }
+
+#enabling { margin-bottom:10px; }
+.notenabled { font-weight:bold; color:red; }
+.enabled { font-weight:bold; color:green; }
+#preview { width:35%; float:right;  padding-top:10px; margin-right:30px;}
+#preview h2 { background:#f1f1f1; margin:0; padding:10px;  border:1px solid #ccc; cursor:pointer; }
+#preview h2 { border-radius:15px 15px 0 0; }
+
+.itemRow { border-top:1px solid #bbb; padding:5px; margin:5px; }
+.itemImg { width:40px; display:inline-block; }
+.itemType { width:100px; display:inline-block; }
+.itemLink { width:250px; display:inline-block; font-size:9px; }
+.itemRank { width:70px; display:inline-block; }
+.itemAction { width:50px; display:inline-block; }
+
+.editItemRow { display:none; margin:10px 5px 20px 5px; padding:5px; }
+.editLabel { display:inline-block; width:100px; }
+.delItem { float:right; }
+
+/*********/
+
